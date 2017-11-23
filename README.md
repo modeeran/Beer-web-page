@@ -1,21 +1,31 @@
+<<<<<<< HEAD
 ### Beer Web case-study
 ==========================
 
 In this project, the Bootsrap v4 is used as main style framework.
+=======
+
+### Beer Web case-study
+==========================
+>>>>>>> 62547453099d1b7b491f97004211a69e2cb110ee
+
+In this project, the Bootsrap v4 is used as the main styling framework
 
 
 ### Important files to review
-
-SASS
-_assets/scss/bootstrap-v4/*
-_assets/scss/custom-style/*
-_beer-style.scss
-_vendor.scss
+```
+SASS-->
+assets/scss/custom-style/*
+assets/scss/bootstrap-v4/*
+assets/scss/custom-style/*
+beer-style.scss
+vendor.scss
 main-style.scss
-main-style.css
-
-js/
+main-style.cs
+js-->
 basic-form-valid.js
---------------------
+-----------------
 index.html
+```
+
 
