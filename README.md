@@ -1,8 +1,7 @@
-Deloitte Digital Code Challenge
+### Beer Web case-study
 ==========================
 
-### Beer Web case-study
-In this project, the Bootsrap v4 is used as main style framework
+In this project, the Bootsrap v4 is used as main style framework.
 
 
 ### Important files to review
