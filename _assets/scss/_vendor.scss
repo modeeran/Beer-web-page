@@ -1,0 +1,11 @@
+
+/* customized Bootstrap scss */
+@import "custom-style/customize-bootstarp-reboot";
+@import "Bootstrap-v4-dev/scss/bootstrap";
+@import "Bootstrap-v4-dev/scss/bootstrap-grid";
+
+
+
+
+/* Custom scss, new style, possibly to overwrite bootstrap */
+@import "custom-style/beer-style";

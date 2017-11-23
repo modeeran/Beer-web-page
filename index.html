@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="_assets/scss/main-style.css">
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+    <script src="_assets/js/basic-form-valid.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top nav-custom navbar-toggleable">
+    <div class="container">
+        <a class="navbar-brand custom-brand" href="#">
+            <img src="_assets/img/logo.png" class="img-responsive custom-logo" alt="Image"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mt-2 mt-lg-0 nav-menu-items">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Beers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Breweries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Intro panel start -->
+<div class="jumbotron custom_jumbotron mb-0" style="/*inline just for a local load*/background: url(_assets/img/hero.jpg) center center; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-md-left">
+                <h1 class="text-white intro-jumbotron-main-headline">Discovering beer just got easier.</h1>
+            </div>
+        </div>
+        <div class="row pt-0 mt-0">
+            <div class="col-md-12 mt-sm-4 mt-0 intro-call2action-box">
+                <button type="button" class="btn btn-primary btn-custom-shape text-md-left">Learn More</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Intro panel end-->
+
+<!-- 2nd panel start -->
+<div class="container pt-5 pb-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>You're a couple moments away from getting a beer.</h3>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. </p>
+
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="col-md-6">
+            <form id="beerForm">
+                <fieldset>
+
+                    <div class="form-group input-group-lg">
+                        <label class="font-weight-bold">What is your favorite beer?</label>
+                        <input type="text" name="beer_name" class="form-control custom-form-input" placeholder="Corona" data-vindicate="required|format:alpha" />
+                    </div>
+                    <div class="form-group mt-4 mb-4 input-group-lg">
+                        <label class="font-weight-bold" for="Select">How Many times a week do you drink beer?</label>
+                        <select id="Select" name="beer_count"class="form-control custom-form-input custom-select-group">
+                            <option disabled>Select an option</option>
+                            <option>Nothing</option>
+                            <option>One to Three</option>
+                            <option>A lot</option>
+                        </select>
+                    </div>
+                    <div> </div>
+                    <button type="submit" class="btn btn-custom-shape text-white mr-3 mb-2 form-advice-button" onclick="submitBasic()">Get Advice
+                    </button>
+
+                    <button class="btn btn-primary btn-custom-shape mb-2 form-beer-button" type="button" onclick="submitBasic()">Get a beer</button>
+                </fieldset>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+<!-- 2nd panel end -->
+<!-- 3rd panel start -->
+<div class="container-fluid pt-5 pb-5" id="panel-3">
+    <div class="container">
+        <!-- 3rd panel headlines row-->
+        <div class="row">
+            <div class="col-md-12 text-center custom-panel-title">
+                <h2 >What Makes us different?</h2>
+
+                <h3 class="mt-3 custom-panel-subtitle">
+                    We're focused on the needs of beer lover.</h3>
+                <span></span>
+            </div>
+        </div>
+        <!-- 3rd panel headlines row end-->
+        <!-- 3rd panel marketing row -->
+        <div class="row">
+            <!-- Market card1 -->
+            <div class="col-md-3 text-center mt-4 pt-2 pb-2 single-market-card" id="single-market-card1">
+                <h4 class="single-market-card-title mb-3">Direct to you</h4>
+
+                <div class="single-market-card-img_wrap">
+                    <img class="single-market-card-img" src="_assets/icons/icon-direct-to-you@2x.png"
+                         alt="Image">
+                </div>
+                <p class="single-market-card-text font-italic mt-2">Some quick example text to build on the card title
+                    and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <!-- Market card2 -->
+            <div class="col-md-3 text-center mt-4 pt-2 pb-2 single-market-card" id="single-market-card2">
+                <h4 class="single-market-card-title mb-3">Pub-less</h4>
+
+                <div class="single-market-card-img_wrap">
+                    <img class="single-market-card-img mb-4 mt-2" src="_assets/icons/icon-pub-less@2x.png"
+                         alt="Image">
+                </div>
+                <p class="single-market-card-text font-italic mt-2">Some quick example text to build on the card title
+                    and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <!-- Market card3 -->
+            <div class="col-md-3 text-center mt-4 pt-2 pb-2 single-market-card" id="single-market-card3">
+                <h4 class="single-market-card-title mb-3">Peace of Mind</h4>
+
+                <div class="single-market-card-img_wrap">
+                    <img class="single-market-card-img mb-4 mt-2" src="_assets/icons/icon-peace-of-mind@2x.png"
+                         alt="Image">
+                </div>
+                <p class="single-market-card-text font-italic mt-2">Some quick example text to build on the card title
+                    and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <!-- Market card4 -->
+            <div class="col-md-3 text-center mt-4 pt-2 pb-2 single-market-card" id="single-market-card4">
+                <h4 class="single-market-card-title mb-3">Expert Advice</h4>
+
+                <div class="single-market-card-img_wrap">
+                    <img class="single-market-card-img mb-4 mt-2" src="_assets/icons/icon-expert-advice@2x.png"
+                         alt="Image">
+                </div>
+                <p class="single-market-card-text font-italic mt-2">Some quick example text to build on the card title
+                    and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+        <!-- 3rd panel marketing row end -->
+        <!-- 3rd panel call2action row -->
+        <div class="row">
+            <div class="col-md-12 text-center pt-4 pb-4 mt-md-5">
+                <button type="submit" class="btn btn-custom-shape text-white form-advice-button">Learn More
+                </button>
+            </div>
+        </div>
+        <!-- 3rd panel call2action row end -->
+    </div>
+</div>
+<!-- 3rd panel end -->
+<!-- footer start -->
+<footer class="container-fluid text-center footer-custom">
+    <div class="container pb-2">
+        <div class="row ">
+            <div class="col-md-3 text-md-left">
+                <p class="text-white mt-md-3 footer-address">12345 Stephan Plaz 00, Door 00, Vienna Austria, 1010</p>
+
+                <p class="footer-copyright">Copyright &copy; 2017 Beer'd, inc </p>
+            </div>
+            <div class="col-md-3 offset-md-6 mt-md-3 text-md-right">
+                <img class="footer-end-right-img mt-2" src="_assets/img/footer-graphic.png"
+                     alt="Image">
+            </div>
+
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+
+<!-- A very basic form validation for the form of #beerForm -->
+<script>
+    $("#beerForm").vindicate("init");
+    var submitBasic = function() {
+        $("#beerForm").vindicate("validate");
+    }
+</script>
+
+
+</body>
+</html>

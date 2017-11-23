@@ -1,0 +1,182 @@
+/* Nav bar*/
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.nav-menu-items .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+
+.nav-custom {
+  background: rgba(255, 255, 255, .7);
+  padding: 1.1rem 1rem;
+}
+
+.custom-logo {
+  width: 212px;
+}
+
+.custom-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Intro panelr*/
+.intro-jumbotron-main-headline {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  line-height: 1.5;
+}
+
+.custom_jumbotron {
+  height: 400px;
+  padding: 8rem 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* btn*/
+.btn-custom-shape {
+  font-size: 0.9rem;
+  padding: 0.5rem 2rem;
+  border-radius: 24px;
+  background-color: #0e76bc;
+}
+
+/* form*/
+.custom-form-input {
+  background-color: #f3f3f4;
+  font-size: 1rem!important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: lightgray!important;
+  font-size: 1rem;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: lightgray!important;
+  font-size: 1rem;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: lightgray!important;
+  font-size: 1rem;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: lightgray!important;
+  font-size: 1rem;
+}
+
+.form-advice-button {
+  background-color: orangered;
+}
+
+/* panel3*/
+#panel-3 {
+  background-color: #f3f3f4;
+}
+
+#panel-3 .custom-panel-title {
+  font-size: 2.7rem;
+  font-weight: 400;
+  color: #3f3f3f;
+}
+
+#panel-3 .custom-panel-subtitle {
+  text-transform: uppercase;
+  color: #606060;
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.1rem;
+}
+
+.single-market-card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+.single-market-card-img {
+  width: 150px;
+}
+
+.single-market-card-text {
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: #8c8c8e;
+}
+
+#single-market-card2 .single-market-card-img {
+  width: 70px;
+}
+
+#single-market-card3 .single-market-card-img {
+  width: 70px;
+}
+
+#single-market-card4 .single-market-card-img {
+  width: 78px;
+}
+
+.single-market-card-img_wrap {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  .intro-jumbotron-main-headline {
+    font-size: 2rem;
+  }
+  .intro-call2action-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .custom-logo {
+    width: 150px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+  .intro-jumbotron-main-headline {
+    font-size: 2.4rem;
+  }
+}
+
+/* footer */
+footer {
+  padding: 1.5rem;
+}
+
+.footer-custom {
+  background-color: #404041;
+}
+
+.footer-address {
+  font-size: 0.9rem;
+}
+
+.footer-copyright {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.footer-end-right-img {
+  width: 120px;
+}
