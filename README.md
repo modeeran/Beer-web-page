@@ -20,7 +20,7 @@ assets/scss/bootstrap-v4/*
 beer-style.scss
 vendor.scss
 main-style.scss
-main-style.csa
+main-style.css
 js-->
 basic-form-valid.js
 -----------------
