@@ -17,11 +17,10 @@ In this project, the Bootsrap v4 is used as the main styling framework
 SASS-->
 assets/scss/custom-style/*
 assets/scss/bootstrap-v4/*
-assets/scss/custom-style/*
 beer-style.scss
 vendor.scss
 main-style.scss
-main-style.cs
+main-style.csa
 js-->
 basic-form-valid.js
 -----------------
