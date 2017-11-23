@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ### Beer Web case-study
 ==========================
 
@@ -7,7 +7,7 @@ In this project, the Bootsrap v4 is used as main style framework.
 
 ### Beer Web case-study
 ==========================
->>>>>>> 62547453099d1b7b491f97004211a69e2cb110ee
+
 
 In this project, the Bootsrap v4 is used as the main styling framework
 
